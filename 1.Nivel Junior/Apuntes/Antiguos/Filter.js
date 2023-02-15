@@ -13,7 +13,7 @@ array.filter( (elemento)  => {
 
 
 
-// De esto sirve filter.
+// De esto sirve filter:
 
 let numeros = [19, 52, 55,9,0];
     
@@ -21,3 +21,13 @@ resultado = numeros.filter(num => num > 15);
 
 document.write(resultado);
 
+
+// Lo mismo sin filter:
+
+let resultado = [];
+for (numero of numeros) {
+    if (numero>15){
+        resultado.push(numero);
+    }
+}
+document.write(resultado);

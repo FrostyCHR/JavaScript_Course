@@ -13,7 +13,6 @@ class Materia {
         
         document.write(`<b> ${this.asignatura}: </b> <br> <br> Profesor: ${this.profesor} <br> Alumnos: ${this.alumnos}.`);
         
-
     }
 
 }

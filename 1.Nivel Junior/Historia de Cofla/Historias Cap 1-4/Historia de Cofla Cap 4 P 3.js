@@ -6,7 +6,7 @@ const Inscribirse = (clase) => {
         tecno : [],
     };
     
-    alumnos = materias[clase];
+    let alumnos = materias[clase];
 
     if (alumnos===undefined){
         alert("Lo sentimos, no se ha encontrado la clase.")
@@ -16,7 +16,7 @@ const Inscribirse = (clase) => {
 
     if(cantidadAlumnos < "4") {
         alumnos.push("cofla");
-        document.write(`Estos son los alumnos de ${clase}: ` + alumnos);
+        document.write(`Estos son los alumnos de ${clase}: ${alumnos}` );
             
     } else {
         alert(`Lo siento, todas las plazas de ${clase} están ocupadas.`);

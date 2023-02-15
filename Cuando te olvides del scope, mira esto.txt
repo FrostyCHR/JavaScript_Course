@@ -1,0 +1,15 @@
+var: Una variable tiene el mismo valor en TODO el documento.
+
+
+let: 
+	-Fuera de todos los bloques [   (aquí) for (...){}   ]: La variable tiene el mismo valor en TODO el documento.
+
+
+	-En varios bloques [   (aquí) for (...){  (aquí)  }   ]: Fuera de cualquier bloque o en uno donde no esté declarada, tendrá el valor especificado fuera.
+								 Dentro tendrá el valor especificado en dicho bloque.
+	
+	-Dentro de un bloque [   for (...){  (aquí)  }   ]: Fuera de él no está declarada, mucho menos inicializada. Dentro tiene el valor especificado.
+
+
+
+const: Igual que let en cuanto a scope.

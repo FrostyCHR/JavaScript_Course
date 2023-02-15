@@ -1,0 +1,93 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.width{
+    width: 80vw;
+}
+
+
+.keys{
+
+    display: grid;
+    grid-auto-rows: 300px;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, 300px);
+    padding: 0 0 100px 0;
+    place-content: center;
+
+}
+
+.keys__key{
+
+    align-items: center;
+    border-radius: 1em;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: .3fr 3fr .2fr .6fr;
+    padding: 15px;
+    transition: box-shadow .1s, transform .1s;
+
+}
+
+.keys__key:hover{
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    transform: scale(1.02);
+
+}
+
+.keys__picture{
+
+    max-height: 100%;
+    object-fit: contain;
+    width: 100%;
+
+}
+
+.keys__imgContainer{
+
+    height: 100%;
+    /* 
+    Básicamente, por defecto todos los grid-items tienen min-width / height = auto (contenido). Por lo tanto, a pesar de que le digamos que no se pase del tamaño especificado por su grid area (cell en este caso), le da igual porque ese tamaño es menor que el de su contenido (imagen). Al ponerle esto, hacemos que su mínimo tamaño sea 0, y luego que su tamaño sea todo el de su grid area (cell otra vez) para ignorar la restricción explicada anteriormente.
+    */
+    min-height: 0;
+    min-width: 0; 
+    width: 100%;
+
+}
+
+.keys__price{
+
+    color: #22d922;
+    font-weight: 600;
+
+}
+
+.keys__button{
+
+    background-color: #72d972;
+    border: 1px solid #000;
+    border-radius: .5em;
+    cursor: pointer;
+    justify-self: center;
+    padding: 8px;
+    transition: background-color .2s, transform .2s;
+    width: 50%;
+
+}
+
+.keys__button:hover{
+
+    background-color: #52d952;
+    transform: scale(1.05);
+    
+}
