@@ -1,0 +1,58 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+:root{
+    --second-color: #00bb2d;
+    --background-color: #a5eea0;
+}
+
+body{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 40vh;
+
+}
+
+.info{
+
+    border: 2px solid #444;
+    border-collapse: collapse;
+
+}
+
+td, th{
+
+    border: 1px solid #aaa;
+    padding: 8px;
+    text-align: center;
+
+}
+
+th{
+    color: var(--second-color);
+}
+
+td:last-child{
+
+    height: 41px;
+    width: 113.5px;
+
+}
+
+select{
+    border: none;
+}
+
+#JSchange{
+
+    background-color: var(--background-color);
+    border: 1px solid #444;
+    border-radius: .4em;
+    cursor: pointer;
+    padding: 6px;
+
+}

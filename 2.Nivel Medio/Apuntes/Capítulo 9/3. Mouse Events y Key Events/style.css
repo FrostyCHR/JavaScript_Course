@@ -1,0 +1,15 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    padding: 50px;
+}
+
+div{
+
+    border: 1px solid #aaa;
+    display: inline-block;
+    padding: 20px;
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Normalize -->
+
+    <link rel="stylesheet" href="../../../../normalize/normalize.css"> <!-- Check route -->
+
+    <title>Curso JavaScript</title>
+</head>
+<body>
+
+    <form class="mark">
+
+        <h2 class="mark__title">Set final marks</h2>
+
+        <label for="JStest" class="mark__test">Test mark:</label>
+        <input type="number" id="JStest">
+
+        <label for="JShomework" class="mark__homework">Homework mark:</label>
+        <input type="number" id="JShomework">
+
+        <label for="JSproject" class="mark__project">Project mark:</label>
+        <input type="number" id="JSproject">
+        <button id="JSmark" class="mark__button">Calculate student's final mark</button>
+
+    </form>
+
+    <section class="results">
+
+        <header class="results__header"><h2 class="results__title">Results</h2></header>
+        <p>Final mark: </p>
+
+    </section>
+
+
+    <script src="scripts.js"></script>  
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Normalize -->
+
+    <link rel="stylesheet" href="../../../../normalize/normalize.css">
+
+    <title>Curso JavaScript</title>
+</head>
+
+<body>
+
+    <table class="info">
+
+        <thead>
+            <th class="info__alumno">Alumno</th>
+            <th class="info__email">Correo electrónico</th>
+            <th class="info__asignatura">Asignatura</th>
+            <th class="info__semana">Semana</th>
+        </thead>
+
+        <tbody>
+
+            <tr class="info__alumno1">
+                <td>Lucas Dalto</td>
+                <td>soydalto@gmail.com</td>
+                <td>Física</td>
+                <td>
+                    <select id="JSalumno1">
+                        <option value="Semana1">Semana 1</option>
+                        <option value="Semana2">Semana 2</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr class="info__alumno2">
+                <td>Dídac Bosch</td>
+                <td>bedroomstudios@gmail.com</td>
+                <td>Matemáticas</td>
+                <td>
+                    <select id="JSalumno2">
+                        <option value="Semana1">Semana 1</option>
+                        <option value="Semana2">Semana 2</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr class="info__alumno3">
+                <td>Roberta Fernández</td>
+                <td>robertafer@gmail.com</td>
+                <td>Carpintería</td>
+                <td>
+                    <select id="JSalumno3">
+                        <option value="Semana1">Semana 1</option>
+                        <option value="Semana2">Semana 2</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr class="info__alumno4">
+                <td>Cofla XD</td>
+                <td>coflagg@gmail.com</td>
+                <td>Recreo, Tutoría</td>
+                <td>
+                    <select id="JSalumno4">
+                        <option value="Semana1">Semana 1</option>
+                        <option value="Semana2">Semana 2</option>
+                    </select>
+                </td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4"><button id="JSchange">Confirmar cambios</button></td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
