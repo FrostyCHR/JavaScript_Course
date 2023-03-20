@@ -28,4 +28,7 @@ Ejemplo:
 
 En lugar de añadir muchos elementos a un contenedor mediante appendChild(), es mejor añadirlos a un documentFragment para luego introducir el fragmento como hijo, usando el método una única vez sobre el contenedor y ahorrando muchos recursos.
 
+
+Muchos elementos obsoletos son métodos que crean HTML como string y no como objeto [objeto: createElement()] o elementos que han canviado de función a método o viceversa.
+
 */
